@@ -14,8 +14,7 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-
-customer_df = pd.read_csv("C:/Users/LENOVO/Downloads/dashboard_project/customers_dataset.csv")
+customer_df = pd.read_csv("customers_dataset.csv")
 
 # ======================
 # Header
